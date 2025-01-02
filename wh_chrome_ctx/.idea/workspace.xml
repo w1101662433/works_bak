@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b209f3dd-9f17-4ce9-aeb2-c049a139d449" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/css/content_scripts.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/content_scripts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/background.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/popup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="n#style#0;n#textarea#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/content_scripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>copy_cookie</find>
+      <find>我收到了你的消息！</find>
+      <find>console.log</find>
+      <find>copy_to_clipboard</find>
+      <find>sendResponse</find>
+      <find>zip_to_dict</find>
+      <find>new_key</find>
+      <find>get_local_storage</find>
+      <find>localStorage</find>
+      <find>chrome.contextMenus.create</find>
+      <find>requests_get_now_domain</find>
+      <find>res</find>
+      <find>selenium</find>
+      <find>var</find>
+      <find>to_json</find>
+      <find>post_data_or_header_trans_from_chrome</find>
+      <find>sendMessageToContentScript</find>
+      <find>get_now_domain</find>
+      <find>params_to_json</find>
+      <find>pop</find>
+      <find>tiao_zhuan</find>
+      <find>activeTab</find>
+      <find>contextMenus</find>
+      <find>response</find>
+      <find>chrome</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>keys</replace>
+      <replace>requests_get_now_domain</replace>
+      <replace>get_now_domain</replace>
+      <replace>let</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/inde.html" />
+        <option value="$PROJECT_DIR$/js/jquery_min.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/js/inject.js" />
+        <option value="$PROJECT_DIR$/css/uikit.min.css" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/libs/js_tools.js" />
+        <option value="$PROJECT_DIR$/css/content_scripts.css" />
+        <option value="$PROJECT_DIR$/js/popup.js" />
+        <option value="$PROJECT_DIR$/popup.html" />
+        <option value="$PROJECT_DIR$/manifest.json" />
+        <option value="$PROJECT_DIR$/js/content_scripts.js" />
+        <option value="$PROJECT_DIR$/js/background.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="33" />
+    <option name="y" value="214" />
+    <option name="width" value="1440" />
+    <option name="height" value="780" />
+  </component>
+  <component name="ProjectId" id="2QtuMsIzqTKdzQ478KaPlg1rhod" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="wh_chrome_ctx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wh_chrome_ctx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wh_chrome_ctx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wh_chrome_ctx" type="462c0819:PsiDirectoryNode" />
+              <item name="icons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wh_chrome_ctx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wh_chrome_ctx" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wh_chrome_ctx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wh_chrome_ctx" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/BaiduSyncdisk/works/wh_chrome_ctx",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\works\wh_chrome_ctx\js" />
+      <recent name="F:\works\wh_chrome_ctx\css" />
+      <recent name="H:\works\wh_chrome_ctx\js" />
+      <recent name="H:\works\wh_chrome_ctx\icons" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b209f3dd-9f17-4ce9-aeb2-c049a139d449" name="Default Changelist" comment="" />
+      <created>1652339004554</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652339004554</updated>
+      <workItem from="1652339005680" duration="10952000" />
+      <workItem from="1652402123575" duration="3511000" />
+      <workItem from="1652410616669" duration="922000" />
+      <workItem from="1652422263809" duration="14000" />
+      <workItem from="1652422298752" duration="606000" />
+      <workItem from="1652435421980" duration="1400000" />
+      <workItem from="1652451567195" duration="4329000" />
+      <workItem from="1652540410682" duration="1537000" />
+      <workItem from="1652619955770" duration="4450000" />
+      <workItem from="1652673260797" duration="1052000" />
+      <workItem from="1652684433867" duration="215000" />
+      <workItem from="1653470234530" duration="700000" />
+      <workItem from="1653471912138" duration="93000" />
+      <workItem from="1653491197255" duration="6000" />
+      <workItem from="1653526718149" duration="1218000" />
+      <workItem from="1653528269907" duration="2964000" />
+      <workItem from="1653535644059" duration="3097000" />
+      <workItem from="1653630022437" duration="70000" />
+      <workItem from="1653871012172" duration="82000" />
+      <workItem from="1654562596738" duration="1223000" />
+      <workItem from="1655282576222" duration="815000" />
+      <workItem from="1655347219467" duration="1618000" />
+      <workItem from="1655349364856" duration="510000" />
+      <workItem from="1656121903792" duration="3949000" />
+      <workItem from="1656320014903" duration="2650000" />
+      <workItem from="1656898386068" duration="1396000" />
+      <workItem from="1657263416022" duration="23000" />
+      <workItem from="1657875710558" duration="711000" />
+      <workItem from="1659073691052" duration="268000" />
+      <workItem from="1659516325704" duration="418000" />
+      <workItem from="1659517146430" duration="1468000" />
+      <workItem from="1660532998871" duration="1525000" />
+      <workItem from="1660745582862" duration="624000" />
+      <workItem from="1661392467977" duration="80000" />
+      <workItem from="1661420919220" duration="697000" />
+      <workItem from="1665555049857" duration="479000" />
+      <workItem from="1665565766734" duration="605000" />
+      <workItem from="1666082263465" duration="5393000" />
+      <workItem from="1666142651129" duration="113000" />
+      <workItem from="1666142835314" duration="76000" />
+      <workItem from="1666452364540" duration="1546000" />
+      <workItem from="1666603599992" duration="287000" />
+      <workItem from="1667271904628" duration="4000" />
+      <workItem from="1686185154456" duration="1019000" />
+      <workItem from="1701149159288" duration="803000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1652348539104</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652348539104</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init 002">
+      <created>1652350236023</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652350236023</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init 003">
+      <created>1652405637129</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652405637129</updated>
+    </task>
+    <task id="LOCAL-00004" summary="004 获取cookie完成">
+      <created>1652541349184</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652541349184</updated>
+    </task>
+    <task id="LOCAL-00005" summary="005 head转变完成">
+      <created>1652624385931</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652624385931</updated>
+    </task>
+    <task id="LOCAL-00006" summary="006 获取localstorage">
+      <created>1653530990279</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653530990279</updated>
+    </task>
+    <task id="LOCAL-00007" summary="006 获取localstorage">
+      <created>1653531183613</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653531183613</updated>
+    </task>
+    <task id="LOCAL-00008" summary="007 获取sessionStorage">
+      <created>1655282772937</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655282772937</updated>
+    </task>
+    <task id="LOCAL-00009" summary="008 获取cookie selenium">
+      <created>1655348786297</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1655348786297</updated>
+    </task>
+    <task id="LOCAL-00010" summary="008 获取cookie selenium">
+      <created>1656124499706</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656124499706</updated>
+    </task>
+    <task id="LOCAL-00011" summary="009 params2json">
+      <created>1656322683512</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656322683512</updated>
+    </task>
+    <task id="LOCAL-00012" summary="010">
+      <created>1666084834613</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666084834613</updated>
+    </task>
+    <task id="LOCAL-00013" summary="011">
+      <created>1666087707530</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666087707530</updated>
+    </task>
+    <task id="LOCAL-00014" summary="011">
+      <created>1666452535886</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666452535886</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="63696000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18123667" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" weight="0.48053393" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32962137" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="init 002" />
+    <MESSAGE value="init 003" />
+    <MESSAGE value="004 获取cookie完成" />
+    <MESSAGE value="005 head转变完成" />
+    <MESSAGE value="006 获取localstorage" />
+    <MESSAGE value="007 获取sessionStorage" />
+    <MESSAGE value="008 获取cookie selenium" />
+    <MESSAGE value="009 params2json" />
+    <MESSAGE value="010" />
+    <MESSAGE value="011" />
+    <option name="LAST_COMMIT_MESSAGE" value="011" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/uikit.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/content_scripts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/uikit.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery_min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="28898" selection-start-line="5" selection-start-column="28898" selection-end-line="5" selection-end-column="28898" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/inject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/icons/16.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/js_tools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/popup.js" />
+    <entry file="file://$PROJECT_DIR$/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="856">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/content_scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/background.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

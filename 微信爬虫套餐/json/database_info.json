@@ -1,0 +1,557 @@
+{
+  'data': [
+    {
+      'db_name': 'MicroMsg.db',
+      'handle': 277737768,
+      'tables': [
+        {
+          'name': 'Contact',
+          'rootpage': '2',
+          'sql': 'CREATE TABLE Contact(UserName TEXT PRIMARY KEY ,Alias TEXT,EncryptUserName TEXT,DelFlag INTEGER DEFAULT 0,Type INTEGER DEFAULT 0,VerifyFlag INTEGER DEFAULT 0,Reserved1 INTEGER DEFAULT 0,Reserved2 INTEGER DEFAULT 0,Reserved3 TEXT,Reserved4 TEXT,Remark TEXT,NickName TEXT,LabelIDList TEXT,DomainList TEXT,ChatRoomType int,PYInitial TEXT,QuanPin TEXT,RemarkPYInitial TEXT,RemarkQuanPin TEXT,BigHeadImgUrl TEXT,SmallHeadImgUrl TEXT,HeadImgMd5 TEXT,ChatRoomNotify INTEGER DEFAULT 0,Reserved5 INTEGER DEFAULT 0,Reserved6 TEXT,Reserved7 TEXT,ExtraBuf BLOB,Reserved8 INTEGER DEFAULT 0,Reserved9 INTEGER DEFAULT 0,Reserved10 TEXT,Reserved11 TEXT)',
+          'tbl_name': 'Contact'
+        },
+        {
+          'name': 'OpLog',
+          'rootpage': '5',
+          'sql': 'CREATE TABLE OpLog(ID INTEGER PRIMARY KEY,CMDItemBuffer BLOB)',
+          'tbl_name': 'OpLog'
+        },
+        {
+          'name': 'Session',
+          'rootpage': '6',
+          'sql': 'CREATE TABLE Session(strUsrName TEXT  PRIMARY KEY,nOrder INT DEFAULT 0,nUnReadCount INTEGER DEFAULT 0,parentRef TEXT,Reserved0 INTEGER DEFAULT 0,Reserved1 TEXT,strNickName TEXT,nStatus INTEGER,nIsSend INTEGER,strContent TEXT,nMsgType\tINTEGER,nMsgLocalID INTEGER,nMsgStatus INTEGER,nTime INTEGER,editContent TEXT,othersAtMe INT,Reserved2 INTEGER DEFAULT 0,Reserved3 TEXT,Reserved4 INTEGER DEFAULT 0,Reserved5 TEXT,bytesXml BLOB)',
+          'tbl_name': 'Session'
+        },
+        {
+          'name': 'AppInfo',
+          'rootpage': '9',
+          'sql': 'CREATE TABLE AppInfo(InfoKey TEXT PRIMARY KEY,AppId TEXT,Version INT,IconUrl TEXT,StoreUrl TEXT,WatermarkUrl TEXT,HeadImgBuf BLOB,Name TEXT,Description TEXT,Name4EnUS TEXT,Description4EnUS TEXT,Name4ZhTW TEXT,Description4ZhTW TEXT)',
+          'tbl_name': 'AppInfo'
+        },
+        {
+          'name': 'ContactHeadImgUrl',
+          'rootpage': '11',
+          'sql': 'CREATE TABLE ContactHeadImgUrl(\t\t\t\t\t\t\tusrName TEXT PRIMARY KEY,\t\t\t\t\t\t\tsmallHeadImgUrl TEXT,\t\t\t\t\t\t\tbigHeadImgUrl TEXT,\t\t\t\t\t\t\theadImgMd5 TEXT,\t\t\t\t\t\t\treverse0 INT,\t\t\t\t\t\t\treverse1 TEXT)',
+          'tbl_name': 'ContactHeadImgUrl'
+        },
+        {
+          'name': 'BizInfo',
+          'rootpage': '14',
+          'sql': 'CREATE TABLE BizInfo(UserName TEXT PRIMARY KEY,Type INTEGER DEFAULT 0,Belong TEXT,AcceptType INTEGER DEFAULT 0,Reserved1 INTEGER DEFAULT 0,Reserved2 TEXT,BrandList TEXT,BrandFlag INTEGER DEFAULT 0,BrandInfo TEXT,BrandIconURL TEXT,UpdateTime INTEGER DEFAULT 0,ExtInfo TEXT,Reserved3 INTEGER DEFAULT 0,Reserved4 TEXT,Reserved5 INTEGER DEFAULT 0,Reserved6 TEXT,Reserved7 INTEGER DEFAULT 0,Reserved8 TEXT,Reserved9 BLOB)',
+          'tbl_name': 'BizInfo'
+        },
+        {
+          'name': 'TicketInfo',
+          'rootpage': '16',
+          'sql': 'CREATE TABLE TicketInfo(UserName TEXT PRIMARY KEY,Ticket TEXT,Reserved1 INTEGER DEFAULT 0,Reserved2 TEXT,Reserved3 INTEGER DEFAULT 0,Reserved4 TEXT)',
+          'tbl_name': 'TicketInfo'
+        },
+        {
+          'name': 'ChatRoom',
+          'rootpage': '18',
+          'sql': 'CREATE TABLE ChatRoom(ChatRoomName TEXT PRIMARY KEY,UserNameList TEXT,DisplayNameList TEXT,ChatRoomFlag int Default 0,Owner INTEGER DEFAULT 0,IsShowName INTEGER DEFAULT 0,SelfDisplayName TEXT,Reserved1 INTEGER DEFAULT 0,Reserved2 TEXT,Reserved3 INTEGER DEFAULT 0,Reserved4 TEXT,Reserved5 INTEGER DEFAULT 0,Reserved6 TEXT,RoomData BLOB,Reserved7 INTEGER DEFAULT 0,Reserved8 TEXT)',
+          'tbl_name': 'ChatRoom'
+        },
+        {
+          'name': 'ChatRoomInfo',
+          'rootpage': '20',
+          'sql': 'CREATE TABLE ChatRoomInfo(ChatRoomName TEXT PRIMARY KEY,Announcement TEXT,InfoVersion INTEGER DEFAULT 0,AnnouncementEditor TEXT,AnnouncementPublishTime INTEGER DEFAULT 0,ChatRoomStatus INTEGER DEFAULT 0,Reserved1 INTEGER DEFAULT 0,Reserved2 TEXT,Reserved3 INTEGER DEFAULT 0,Reserved4 TEXT,Reserved5 INTEGER DEFAULT 0,Reserved6 TEXT,Reserved7 INTEGER DEFAULT 0,Reserved8 TEXT)',
+          'tbl_name': 'ChatRoomInfo'
+        },
+        {
+          'name': 'MainConfig',
+          'rootpage': '22',
+          'sql': 'CREATE TABLE MainConfig(Key TEXT PRIMARY KEY,Reserved0 INT,Buf BLOB,Reserved1 INT,Reserved2 TEXT)',
+          'tbl_name': 'MainConfig'
+        },
+        {
+          'name': 'RevokeMsgStorage',
+          'rootpage': '26',
+          'sql': 'CREATE TABLE RevokeMsgStorage (\t\t\t\t\t\t\tCreateTime INTEGER PRIMARY KEY,\t\t\t\t\t\t\tMsgSvrID INTERGER,\t\t\t\t\t\t\tRevokeSvrID INTERGER)',
+          'tbl_name': 'RevokeMsgStorage'
+        },
+        {
+          'name': 'BizProfileV2',
+          'rootpage': '29',
+          'sql': 'CREATE TABLE BizProfileV2 (TalkerId INTEGER PRIMARY KEY, UserName TEXT, ServiceType INTEGER, ArticleCount INTEGER, FriendSubscribedCount INTEGER, IsSubscribed INTEGER, Offset TEXT, IsEnd INTEGER, TimeStamp INTEGER, Reserved1 INTEGER, Reserved2 INTEGER, Reserved3 TEXT, Reserved4 TEXT, RespData BLOB, Reserved5 BLOB)',
+          'tbl_name': 'BizProfileV2'
+        },
+        {
+          'name': 'BizName2ID',
+          'rootpage': '31',
+          'sql': 'CREATE TABLE BizName2ID(UsrName TEXT PRIMARY KEY)',
+          'tbl_name': 'BizName2ID'
+        },
+        {
+          'name': 'BizProfileInfo',
+          'rootpage': '33',
+          'sql': 'CREATE TABLE BizProfileInfo (\t\t\t\t\t\t\ttableIndex INTEGER PRIMARY KEY,\t\t\t\t\t\t\ttableVersion INTERGER,\t\t\t\t\t\t\ttableDesc TEXT)',
+          'tbl_name': 'BizProfileInfo'
+        },
+        {
+          'name': 'BizSessionNewFeeds',
+          'rootpage': '35',
+          'sql': 'CREATE TABLE BizSessionNewFeeds (TalkerId INTEGER PRIMARY KEY, BizName TEXT, Title TEXT, Desc TEXT, Type INTEGER, UnreadCount INTEGER, UpdateTime INTEGER, CreateTime INTEGER, BizAttrVersion INTEGER, Reserved1 INTEGER, Reserved2 INTEGER, Reserved3 TEXT, Reserved4 TEXT, Reserved5 BLOB)',
+          'tbl_name': 'BizSessionNewFeeds'
+        },
+        {
+          'name': 'ChatInfo',
+          'rootpage': '38',
+          'sql': 'CREATE TABLE ChatInfo (Username TEXT, LastReadedSvrId INTEGER, LastReadedCreateTime INTEGER, Reserved1 INTEGER, Reserved2 INTEGER, Reserved3 TEXT, Reserved4 TEXT, Reserved5 INTEGER, Reserved6 TEXT, Reserved7 BLOB)',
+          'tbl_name': 'ChatInfo'
+        },
+        {
+          'name': 'ChatLiveInfo',
+          'rootpage': '40',
+          'sql': 'CREATE TABLE ChatLiveInfo (RoomName TEXT, LiveId INTEGER, LiveName TEXT, AnchorName TEXT, Reserved1 INTEGER, Reserved2 INTEGER, Reserved3 TEXT, Reserved4 TEXT, Reserved5 BLOB,  UNIQUE (RoomName , LiveId ))',
+          'tbl_name': 'ChatLiveInfo'
+        },
+        {
+          'name': 'TopStoryReddotInfo',
+          'rootpage': '44',
+          'sql': 'CREATE TABLE TopStoryReddotInfo (MsgId TEXT PRIMARY KEY, Discovery INTEGER, Entry INTEGER, IosCliVersion INTEGER, AndroidCliVersion INTEGER, H5Version INTEGER, ExpireTime INTEGER, ReddotType INTEGER, TimeStamp INTEGER, ExtInfo TEXT, Seq INTEGER, ReddotText TEXT, ReddotIcon TEXT, Clear INTEGER, Priority INTEGER, HasRead INTEGER, Reserved1 INTEGER, Reserved2 INTEGER, Reserved3 TEXT, Reserved4 TEXT, Reserved5 INTEGER, Reserved6 TEXT, Reserved7 BLOB)',
+          'tbl_name': 'TopStoryReddotInfo'
+        },
+        {
+          'name': 'PatInfo',
+          'rootpage': '46',
+          'sql': 'CREATE TABLE PatInfo (username TEXT UNIQUE  PRIMARY KEY , suffix TEXT, reserved1 INTEGER DEFAULT 0, reserved2 INTEGER DEFAULT 0, reserved3 INTEGER DEFAULT 0, reserved4 INTEGER DEFAULT 0, reserved5 TEXT, reserved6 TEXT, reserved7 TEXT, reserved8 TEXT, reserved9 TEXT)',
+          'tbl_name': 'PatInfo'
+        },
+        {
+          'name': 'FTSContactTrans',
+          'rootpage': '48',
+          'sql': 'CREATE TABLE FTSContactTrans (\t\t\t\t\t\t\t\tusername TEXT,\t\t\t\t\t\t\t\treserve1 INTEGER, \t\t\t\t\t\t\t\treserve2 TEXT)',
+          'tbl_name': 'FTSContactTrans'
+        },
+        {
+          'name': 'FTSChatroomTrans',
+          'rootpage': '49',
+          'sql': 'CREATE TABLE FTSChatroomTrans (\t\t\t\t\t\t\t\tusername TEXT,\t\t\t\t\t\t\t\tgroupUsername TEXT,\t\t\t\t\t\t\t\tdisplayName TEXT,\t\t\t\t\t\t\t\tnickname TEXT,\t\t\t\t\t\t\t\toperation INTEGER,\t\t\t\t\t\t\t\treserve1 INTEGER, \t\t\t\t\t\t\t\treserve2 TEXT)',
+          'tbl_name': 'FTSChatroomTrans'
+        },
+        {
+          'name': 'DelayDownLoad',
+          'rootpage': '51',
+          'sql': 'CREATE TABLE DelayDownLoad (MessageServId INTEGER UNIQUE )',
+          'tbl_name': 'DelayDownLoad'
+        }
+      ]
+    },
+    {
+      'db_name': 'ChatMsg.db',
+      'handle': 277740792,
+      'tables': [
+        {
+          'name': 'ChatMsg',
+          'rootpage': '2',
+          'sql': 'CREATE TABLE ChatMsg(localId INTEGER PRIMARY KEY AUTOINCREMENT,talkerId INT DEFAULT 0,MsgSvrID INT,type INT,IsSender INT,Status INT,CreateTime INT,strTalker TEXT,strContent TEXT,Reserved0 INT DEFAULT 0,Reserved1 TEXT,bytesTrans BLOB,bytesExtra BLOB,translatedContent TEXT,translatedBrand TEXT,Reserved2 INT DEFAULT 0,Reserved3 TEXT,Reserved4 TEXT)',
+          'tbl_name': 'ChatMsg'
+        },
+        {
+          'name': 'sqlite_sequence',
+          'rootpage': '3',
+          'sql': 'CREATE TABLE sqlite_sequence(name,seq)',
+          'tbl_name': 'sqlite_sequence'
+        },
+        {
+          'name': 'TransTable',
+          'rootpage': '7',
+          'sql': 'CREATE TABLE TransTable(msgLocalId INTEGER PRIMARY KEY,talkerId INT)',
+          'tbl_name': 'TransTable'
+        },
+        {
+          'name': 'ChatCRMsg',
+          'rootpage': '8',
+          'sql': 'CREATE TABLE ChatCRMsg(localId INTEGER PRIMARY KEY AUTOINCREMENT,talkerId INT DEFAULT 0,MsgSvrID INT,type INT,sequence INT DEFAULT 0,statusEx INT DEFAULT 0,FlagEx INT,IsSender INT,Status INT,CreateTime INT,strTalker TEXT,strContent TEXT,Reserved0 INT DEFAULT 0,Reserved1 TEXT,bytesTrans BLOB,bytesExtra BLOB,translatedContent TEXT,translatedBrand TEXT,Reserved2 INT DEFAULT 0,Reserved3 TEXT,Reserved4 TEXT)',
+          'tbl_name': 'ChatCRMsg'
+        },
+        {
+          'name': 'TransCRTable',
+          'rootpage': '12',
+          'sql': 'CREATE TABLE TransCRTable(msgLocalId INTEGER PRIMARY KEY,talkerId INT)',
+          'tbl_name': 'TransCRTable'
+        },
+        {
+          'name': 'Name2ID_v1',
+          'rootpage': '13',
+          'sql': 'CREATE TABLE Name2ID_v1(UsrName TEXT PRIMARY KEY)',
+          'tbl_name': 'Name2ID_v1'
+        },
+        {
+          'name': 'DelSessionInfo',
+          'rootpage': '15',
+          'sql': 'CREATE TABLE DelSessionInfo(talkerId INTEGER PRIMARY KEY,dbType INT DEFAULT 0,LocalId INT DEFAULT 0,svrID INT DEFAULT 0,seq INT DEFAULT 0,usrName TEXT,Reserved0 INT DEFAULT 0,Reserved1 TEXT,Reserved2 INT DEFAULT 0,Reserved3 TEXT)',
+          'tbl_name': 'DelSessionInfo'
+        },
+        {
+          'name': 'ChatRecordCompatXml',
+          'rootpage': '16',
+          'sql': 'CREATE TABLE ChatRecordCompatXml(Key TEXT PRIMARY KEY,Reserved0 INT,Buf BLOB,Reserved1 INT,Reserved2 TEXT)',
+          'tbl_name': 'ChatRecordCompatXml'
+        },
+        {
+          'name': 'TeenagerModeAuthStorage',
+          'rootpage': '18',
+          'sql': 'CREATE TABLE TeenagerModeAuthStorage (\t\t\t\t\t\t\tCreateTime INTEGER PRIMARY KEY,\t\t\t\t\t\t\tMsgSvrID INTERGER,\t\t\t\t\t\t\tRevokeSvrID INTERGER)',
+          'tbl_name': 'TeenagerModeAuthStorage'
+        }
+      ]
+    },
+    {
+      'db_name': 'Misc.db',
+      'handle': 277737264,
+      'tables': [
+        {
+          'name': 'ContactHeadImg1',
+          'rootpage': '2',
+          'sql': 'CREATE TABLE ContactHeadImg1(usrName TEXT PRIMARY KEY,createTime INT,smallHeadBuf BLOB,m_headImgMD5 TEXT)',
+          'tbl_name': 'ContactHeadImg1'
+        },
+        {
+          'name': 'BizContactHeadImg',
+          'rootpage': '5',
+          'sql': 'CREATE TABLE BizContactHeadImg(usrName TEXT PRIMARY KEY,createTime INT,smallHeadBuf BLOB,m_headImgMD5 TEXT)',
+          'tbl_name': 'BizContactHeadImg'
+        }
+      ]
+    },
+    {
+      'db_name': 'Media.db',
+      'handle': 277738272,
+      'tables': [
+        {
+          'name': 'MediaInfo',
+          'rootpage': '2',
+          'sql': 'CREATE TABLE MediaInfo(MsgLocalId INTEGER PRIMARY KEY,TalkerId INTEGER DEFAULT 0,MsgType INTEGER DEFAULT 0,Reserved0 INTEGER DEFAULT 0,Reserved1 TEXT,Thumbnail BLOB,Detail BLOB,Reserved2 INTEGER DEFAULT 0,Reserved3 TEXT)',
+          'tbl_name': 'MediaInfo'
+        },
+        {
+          'name': 'ChatCRVoice',
+          'rootpage': '5',
+          'sql': 'CREATE TABLE ChatCRVoice(Key TEXT PRIMARY KEY,Reserved0 INT,Buf BLOB,Reserved1 INT,Reserved2 TEXT)',
+          'tbl_name': 'ChatCRVoice'
+        }
+      ]
+    },
+    {
+      'db_name': 'Emotion.db',
+      'handle': 277738776,
+      'tables': [
+        {
+          'name': 'EmotionPackageItem',
+          'rootpage': '2',
+          'sql': 'CREATE TABLE EmotionPackageItem(ProductId TEXT PRIMARY KEY,nOrder INTEGER,Reserved0 INTEGER,Name TEXT,IconUrl TEXT,PannelUrl TEXT,PayStatus INTEGER,DownloadStatus INTEGER,InstallTime INTEGER,Reserved1 INTEGER,Reserved2 TEXT,Reserved3 INTEGER)',
+          'tbl_name': 'EmotionPackageItem'
+        },
+        {
+          'name': 'EmotionItem',
+          'rootpage': '5',
+          'sql': 'CREATE TABLE EmotionItem(localId INTEGER PRIMARY KEY AUTOINCREMENT,ProductId INTEGER,MD5 TEXT NOT NULL,Reserved0 INTEGER,Reserved1 TEXT,Type INTEGER,AppId TEXT,FromUrl TEXT,Thumb BLOB,Data BLOB,Reserved2 INTEGER,Reserved3 TEXT,Reserved4 INTEGER, UNIQUE(ProductId,MD5))',
+          'tbl_name': 'EmotionItem'
+        },
+        {
+          'name': 'sqlite_sequence',
+          'rootpage': '7',
+          'sql': 'CREATE TABLE sqlite_sequence(name,seq)',
+          'tbl_name': 'sqlite_sequence'
+        },
+        {
+          'name': 'EmotionDes1',
+          'rootpage': '10',
+          'sql': 'CREATE TABLE EmotionDes1(localId INTEGER PRIMARY KEY AUTOINCREMENT,ProductId TEXT,MD5 TEXT NOT NULL UNIQUE,Des BLOB,Reserved0 INTEGER,Reserved1 TEXT,Reserved2 BLOB)',
+          'tbl_name': 'EmotionDes1'
+        },
+        {
+          'name': 'EmotionOrderInfo',
+          'rootpage': '13',
+          'sql': 'CREATE TABLE EmotionOrderInfo(MD5 TEXT PRIMARY KEY,ProductId INTEGER,lastUseTime INTEGER,Reserved0 INTEGER,Reserved1 TEXT)',
+          'tbl_name': 'EmotionOrderInfo'
+        },
+        {
+          'name': 'Name2ID',
+          'rootpage': '15',
+          'sql': 'CREATE TABLE Name2ID(UsrName TEXT PRIMARY KEY)',
+          'tbl_name': 'Name2ID'
+        },
+        {
+          'name': 'CustomEmotion',
+          'rootpage': '17',
+          'sql': 'CREATE TABLE CustomEmotion(MD5 TEXT  PRIMARY KEY,ProductId INTEGER,CDNUrl TEXT,designerid TEXT,thumburl TEXT,encrypturl TEXT,aeskey TEXT,Reserved0 INTEGER,Reserved1 TEXT,Reserved2 INTEGER,Data BLOB,Reserved3 TEXT,Reserved4 INTEGER)',
+          'tbl_name': 'CustomEmotion'
+        }
+      ]
+    },
+    {
+      'db_name': 'FunctionMsg.db',
+      'handle': 277739280,
+      'tables': [
+        {
+          'name': 'FunctionMsg',
+          'rootpage': '2',
+          'sql': 'CREATE TABLE FunctionMsg(nCreateTime INTEGER,nHashId INTEGER, strFunctionMsgId TEXT, nCmdId INT DEFAULT 0,nOpCode INTEGER DEFAULT 0,nRetryInterval INTEGER DEFAULT 0,nReportId INTEGER DEFAULT 0,nVersion INTEGER DEFAULT 0,nFunctionMsgVersion INTEGER DEFAULT0,strSuccessKey TEXT,strFailKey TEXT,strFinalFailKey TEXT,strCustomBuff TEXT,nMsgSvrId\tINTEGER,nRetryCount INTEGER,nBusinessId INTEGER,strBusinessBuff TEXT,nActionTime INTEGER,nDelayTime INTEGER,strCGI TEXT,strAddMsg TEXT,Reserved1 INTEGER DEFAULT 0,Reserved2 TEXT,Reserved3 INTEGER DEFAULT 0,Reserved4 TEXT,blobOriginalAddMsg BLOB,blobNotShowAddMsg BLOB)',
+          'tbl_name': 'FunctionMsg'
+        },
+        {
+          'name': 'FunctionMsgTask',
+          'rootpage': '6',
+          'sql': 'CREATE TABLE FunctionMsgTask(nCreateTime INTEGER DEFAULT 0, strFunctionMsgId TEXT, nOpCode INTEGER DEFAULT 0,nActionTime INTEGER,blobAddMsgBuffer BLOB,Reserved1 INTEGER DEFAULT 0,Reserved2 TEXT,Reserved3 INTEGER DEFAULT 0,Reserved4 TEXT)',
+          'tbl_name': 'FunctionMsgTask'
+        }
+      ]
+    },
+    {
+      'db_name': 'PublicMsg.db',
+      'handle': 278891768,
+      'tables': [
+        {
+          'name': 'PublicMsg',
+          'rootpage': '2',
+          'sql': 'CREATE TABLE PublicMsg (localId INTEGER PRIMARY KEY AUTOINCREMENT,TalkerId INT DEFAULT 0,MsgSvrID INT,Type INT,SubType INT,IsSender INT,CreateTime INT,Sequence INT DEFAULT 0,StatusEx INT DEFAULT 0,FlagEx INT,Status INT,MsgServerSeq INT,MsgSequence INT,StrTalker TEXT,StrContent TEXT,DisplayContent TEXT,Reserved0 INT DEFAULT 0,Reserved1 INT DEFAULT 0,Reserved2 INT DEFAULT 0,Reserved3 INT DEFAULT 0,Reserved4 TEXT,Reserved5 TEXT,Reserved6 TEXT,CompressContent BLOB,BytesExtra BLOB,BytesTrans BLOB)',
+          'tbl_name': 'PublicMsg'
+        },
+        {
+          'name': 'sqlite_sequence',
+          'rootpage': '3',
+          'sql': 'CREATE TABLE sqlite_sequence(name,seq)',
+          'tbl_name': 'sqlite_sequence'
+        },
+        {
+          'name': 'PublicMsgTrans',
+          'rootpage': '4',
+          'sql': 'CREATE TABLE PublicMsgTrans(msgLocalId INTEGER PRIMARY KEY, talkerId INT)',
+          'tbl_name': 'PublicMsgTrans'
+        },
+        {
+          'name': 'PublicNameToID',
+          'rootpage': '10',
+          'sql': 'CREATE TABLE PublicNameToID(UsrName TEXT PRIMARY KEY)',
+          'tbl_name': 'PublicNameToID'
+        }
+      ]
+    },
+    {
+      'db_name': 'PublicMsgMedia.db',
+      'handle': 278888744,
+      'tables': [
+        {
+          'name': 'PublicMsgMedia',
+          'rootpage': '2',
+          'sql': 'CREATE TABLE PublicMsgMedia(Key TEXT PRIMARY KEY,Reserved0 INT,Buf BLOB,Reserved1 INT,Reserved2 TEXT)',
+          'tbl_name': 'PublicMsgMedia'
+        }
+      ]
+    },
+    {
+      'db_name': 'MediaMSG0.db',
+      'handle': 278887736,
+      'tables': [
+        {
+          'name': 'Media',
+          'rootpage': '2',
+          'sql': 'CREATE TABLE Media(Key TEXT PRIMARY KEY,Reserved0 INT,Buf BLOB,Reserved1 INT,Reserved2 TEXT)',
+          'tbl_name': 'Media'
+        }
+      ]
+    },
+    {
+      'db_name': 'MSG0.db',
+      'handle': 278890760,
+      'tables': [
+        {
+          'name': 'MSG',
+          'rootpage': '2',
+          'sql': 'CREATE TABLE MSG (localId INTEGER PRIMARY KEY AUTOINCREMENT,TalkerId INT DEFAULT 0,MsgSvrID INT,Type INT,SubType INT,IsSender INT,CreateTime INT,Sequence INT DEFAULT 0,StatusEx INT DEFAULT 0,FlagEx INT,Status INT,MsgServerSeq INT,MsgSequence INT,StrTalker TEXT,StrContent TEXT,DisplayContent TEXT,Reserved0 INT DEFAULT 0,Reserved1 INT DEFAULT 0,Reserved2 INT DEFAULT 0,Reserved3 INT DEFAULT 0,Reserved4 TEXT,Reserved5 TEXT,Reserved6 TEXT,CompressContent BLOB,BytesExtra BLOB,BytesTrans BLOB)',
+          'tbl_name': 'MSG'
+        },
+        {
+          'name': 'sqlite_sequence',
+          'rootpage': '3',
+          'sql': 'CREATE TABLE sqlite_sequence(name,seq)',
+          'tbl_name': 'sqlite_sequence'
+        },
+        {
+          'name': 'MSGTrans',
+          'rootpage': '4',
+          'sql': 'CREATE TABLE MSGTrans(msgLocalId INTEGER PRIMARY KEY, talkerId INT)',
+          'tbl_name': 'MSGTrans'
+        },
+        {
+          'name': 'Name2ID',
+          'rootpage': '9',
+          'sql': 'CREATE TABLE Name2ID(UsrName TEXT PRIMARY KEY)',
+          'tbl_name': 'Name2ID'
+        },
+        {
+          'name': 'DBInfo',
+          'rootpage': '11',
+          'sql': 'CREATE TABLE DBInfo (\t\t\t\t\t\t\ttableIndex INTEGER PRIMARY KEY,\t\t\t\t\t\t\ttableVersion INTERGER,\t\t\t\t\t\t\ttableDesc TEXT)',
+          'tbl_name': 'DBInfo'
+        }
+      ]
+    },
+    {
+      'db_name': 'OpenIMContact.db',
+      'handle': 278890256,
+      'tables': [
+        {
+          'name': 'OpenIMChatroomData',
+          'rootpage': '2',
+          'sql': 'CREATE TABLE OpenIMChatroomData(RoomName TEXT PRIMARY KEY ,ChatroomMaxCount INTEGER,Owner TEXT,Announcement TEXT,AnnouncementEditor TEXT,AnnouncementPublishTime INTEGER,Reserve1 INTEGER,Reserve2 INTEGER,Reserve3 INTEGER,Reserve4 TEXT,Reserve5 TEXT,Reserve6 BLOB)',
+          'tbl_name': 'OpenIMChatroomData'
+        },
+        {
+          'name': 'OpenIMChatroomMember',
+          'rootpage': '4',
+          'sql': 'CREATE TABLE OpenIMChatroomMember(RoomName TEXT ,UserName TEXT,DisplayName TEXT,MemberFlag INTEGER,InviteUserName TEXT,Reserve1 INTEGER,Reserve2 INTEGER,Reserve3 INTEGER,Reserve4 TEXT,Reserve5 TEXT,Reserve6 BLOB)',
+          'tbl_name': 'OpenIMChatroomMember'
+        },
+        {
+          'name': 'OpenIMContact',
+          'rootpage': '6',
+          'sql': 'CREATE TABLE OpenIMContact(UserName TEXT PRIMARY KEY ,NickName TEXT,Type INTEGER DEFAULT 0,Remark TEXT,BigHeadImgUrl TEXT,SmallHeadImgUrl TEXT,Source INTEGER DEFAULT 0,NickNamePYInit TEXT,NickNameQuanPin TEXT,RemarkPYInit TEXT,RemarkQuanPin TEXT,CustomInfoDetail TEXT,CustomInfoDetailVisible INTEGER DEFAULT 0,AntiSpamTicket TEXT,AppId TEXT,Sex INTEGER,DescWordingId TEXT,Reserved1 INTEGER DEFAULT 0,Reserved2 INTEGER DEFAULT 0,Reserved3 INTEGER DEFAULT 0,Reserved4 INTEGER DEFAULT 0,Reserved5 TEXT,Reserved6 TEXT,Reserved7 TEXT,Reserved8 TEXT,ExtraBuf BLOB)',
+          'tbl_name': 'OpenIMContact'
+        }
+      ]
+    },
+    {
+      'db_name': 'OpenIMMsg.db',
+      'handle': 277739784,
+      'tables': [
+        {
+          'name': 'ChatCRMsg',
+          'rootpage': '2',
+          'sql': 'CREATE TABLE ChatCRMsg(localId INTEGER PRIMARY KEY AUTOINCREMENT,talkerId INT DEFAULT 0,MsgSvrID INT,type INT,sequence INT DEFAULT 0,statusEx INT DEFAULT 0,FlagEx INT,IsSender INT,Status INT,CreateTime INT,strTalker TEXT,strContent TEXT,Reserved0 INT DEFAULT 0,Reserved1 TEXT,bytesTrans BLOB,bytesExtra BLOB,translatedContent TEXT,translatedBrand TEXT,Reserved2 INT DEFAULT 0,Reserved3 TEXT,Reserved4 TEXT)',
+          'tbl_name': 'ChatCRMsg'
+        },
+        {
+          'name': 'sqlite_sequence',
+          'rootpage': '3',
+          'sql': 'CREATE TABLE sqlite_sequence(name,seq)',
+          'tbl_name': 'sqlite_sequence'
+        },
+        {
+          'name': 'TransCRTable',
+          'rootpage': '7',
+          'sql': 'CREATE TABLE TransCRTable(msgLocalId INTEGER PRIMARY KEY,talkerId INT)',
+          'tbl_name': 'TransCRTable'
+        },
+        {
+          'name': 'Name2ID',
+          'rootpage': '9',
+          'sql': 'CREATE TABLE Name2ID(UsrName TEXT PRIMARY KEY)',
+          'tbl_name': 'Name2ID'
+        }
+      ]
+    },
+    {
+      'db_name': 'OpenIMMedia.db',
+      'handle': 277740288,
+      'tables': [
+        {
+          'name': 'OpenIMMedia',
+          'rootpage': '2',
+          'sql': 'CREATE TABLE OpenIMMedia(Key TEXT PRIMARY KEY,Reserved0 INT,Buf BLOB,Reserved1 INT,Reserved2 TEXT)',
+          'tbl_name': 'OpenIMMedia'
+        }
+      ]
+    },
+    {
+      'db_name': 'Sns.db',
+      'handle': 278892272,
+      'tables': [
+        {
+          'name': 'FeedsV20',
+          'rootpage': '2',
+          'sql': 'CREATE TABLE FeedsV20 (FeedId INTEGER UNIQUE, CreateTime INTEGER, FaultId INTEGER, Type INTEGER, UserName TEXT, Status INTEGER, ExtFlag INTEGER, PrivFlag INTEGER, StringId TEXT, Content TEXT, Reserved1 INTEGER, Reserved2 INTEGER, Reserved3 TEXT, Reserved4 TEXT, Reserved5 INTEGER, Reserved6 TEXT, ExtraBuf BLOB, Reserved7 BLOB)',
+          'tbl_name': 'FeedsV20'
+        },
+        {
+          'name': 'CommentV20',
+          'rootpage': '8',
+          'sql': 'CREATE TABLE CommentV20 (FeedId INTEGER, CommentId INTEGER, Createtime INTEGER, Flag INTEGER, CommentType INTEGER, CommentFlag INTEGER, Content TEXT, FromUserName TEXT, ClientId TEXT, ReplyId INTEGER, ReplyUserName TEXT, DeleteFlag INTEGER, CommentId64 INTEGER, ReplyId64 INTEGER, IsAd INTEGER, Reserved1 INTEGER, Reserved2 INTEGER, Reserved3 TEXT, Reserved4 TEXT, Reserved5 INTEGER, Reserved6 TEXT, RefActionBuf BLOB, Reserved7 BLOB)',
+          'tbl_name': 'CommentV20'
+        },
+        {
+          'name': 'NotificationV7',
+          'rootpage': '12',
+          'sql': 'CREATE TABLE NotificationV7 (FeedId INTEGER, CommentId INTEGER, CommentId64 INTEGER, FromUsername TEXT, CreateTime INTEGER, Flag INTEGER, Type INTEGER, ReplyUsername TEXT, Reserved1 INTEGER, Reserved2 TEXT, Reserved3 INTEGER, Reserved4 TEXT, Reserved5 BLOB,  UNIQUE (FeedId , CommentId , CommentId64 , FromUsername , Type ))',
+          'tbl_name': 'NotificationV7'
+        },
+        {
+          'name': 'SnsFailureV5',
+          'rootpage': '15',
+          'sql': 'CREATE TABLE SnsFailureV5 (FailureTime INTEGER, FeedId INTEGER, Type INTEGER, FromUsername TEXT, Reserved1 INTEGER, Reserved2 TEXT, Reserved3 INTEGER, Reserved4 TEXT, Reserved5 BLOB,  UNIQUE (FailureTime ))',
+          'tbl_name': 'SnsFailureV5'
+        },
+        {
+          'name': 'SnsConfigV20',
+          'rootpage': '17',
+          'sql': 'CREATE TABLE SnsConfigV20 (Key INTEGER UNIQUE, IValue INTEGER, StrValue TEXT, BufValue BLOB, Reserved1 INTEGER, Reserved2 TEXT, Reserved3 BLOB)',
+          'tbl_name': 'SnsConfigV20'
+        },
+        {
+          'name': 'SnsGroupInfoV5',
+          'rootpage': '19',
+          'sql': 'CREATE TABLE SnsGroupInfoV5 (FeedId INTEGER UNIQUE, GroupId TEXT, GroupUsers TEXT, Reserved1 INTEGER, Reserved2 INTEGER, Reserved3 TEXT, Reserved4 TEXT, Reserved5 INTEGER, Reserved6 TEXT, Reserved7 BLOB)',
+          'tbl_name': 'SnsGroupInfoV5'
+        },
+        {
+          'name': 'SnsNoNotifyV5',
+          'rootpage': '21',
+          'sql': 'CREATE TABLE SnsNoNotifyV5 (FeedId INTEGER PRIMARY KEY, Flag INTEGER, Reserved1 INTEGER, Reserved2 TEXT, Reserved3 INTEGER, Reserved4 TEXT, Reserved5 BLOB)',
+          'tbl_name': 'SnsNoNotifyV5'
+        },
+        {
+          'name': 'AdFeedsV8',
+          'rootpage': '22',
+          'sql': 'CREATE TABLE AdFeedsV8 (FeedId INTEGER UNIQUE, CreateTime INTEGER, FaultId INTEGER, Type INTEGER, UserName TEXT, Status INTEGER, ExtFlag INTEGER, PrivFlag INTEGER, StringId TEXT, Content TEXT, AdXml TEXT, AdInfoXml TEXT, AdUxinfo TEXT, AdViewId TEXT, RemindFriendInfo TEXT, Aid TEXT, TraceId TEXT, ExposureTime INTEGER, ExposureCount INTEGER, AdSource INTEGER, AdCreateTime INTEGER, Reserved1 INTEGER, Reserved2 INTEGER, Reserved3 TEXT, Reserved4 TEXT, Reserved5 INTEGER, Reserved6 TEXT, ExtraBuf BLOB, Reserved7 BLOB)',
+          'tbl_name': 'AdFeedsV8'
+        }
+      ]
+    },
+    {
+      'db_name': 'Favorite.db',
+      'handle': 278894288,
+      'tables': [
+        {
+          'name': 'FavItems',
+          'rootpage': '2',
+          'sql': 'CREATE TABLE FavItems(FavLocalID INTEGER PRIMARY KEY AUTOINCREMENT,SvrFavId INTEGER DEFAULT 0,Type INTEGER DEFAULT 0,ServerSeq INTEGER DEFAULT 0,LocalStatus INTEGER DEFAULT 0,Flag INTEGER DEFAULT 0,FromUser TEXT,RealChatName TEXT,SourceId TEXT,LocalSeq INTEGER DEFAULT 0,SearchKey TEXT,UpdateTime INTEGER DEFAULT 0,Status INTEGER DEFAULT 0,SourceType INTEGER DEFAULT 0,reseverd0 INTEGER DEFAULT 0,reseverd1 INTEGER DEFAULT 0,reseverd2 INTEGER DEFAULT 0,reseverd3 INTEGER DEFAULT 0,reseverd4 TEXT,reseverd5 TEXT,reseverd6 TEXT,XmlBuf TEXT)',
+          'tbl_name': 'FavItems'
+        },
+        {
+          'name': 'sqlite_sequence',
+          'rootpage': '3',
+          'sql': 'CREATE TABLE sqlite_sequence(name,seq)',
+          'tbl_name': 'sqlite_sequence'
+        },
+        {
+          'name': 'Voice',
+          'rootpage': '13',
+          'sql': 'CREATE TABLE Voice(Key TEXT PRIMARY KEY,Reserved0 INT,Buf BLOB,Reserved1 INT,Reserved2 TEXT)',
+          'tbl_name': 'Voice'
+        },
+        {
+          'name': 'FavTags',
+          'rootpage': '15',
+          'sql': 'CREATE TABLE FavTags(FavLocalID INTEGER,Tag TEXT)',
+          'tbl_name': 'FavTags'
+        },
+        {
+          'name': 'FavDataItem',
+          'rootpage': '18',
+          'sql': 'CREATE TABLE FavDataItem(RecId INTEGER PRIMARY KEY AUTOINCREMENT,FavLocalID INTEGER,Type INTEGER,DataId TEXT,HtmlId TEXT,Datasourceid TEXT,Datastatus INTEGER DEFAULT 0,Datafmt TEXT,Datatitle TEXT,Datadesc TEXT,Thumbfullmd5 TEXT,Thumbhead256md5 TEXT,Thumbfullsize INTEGER DEFAULT 0,fullmd5 TEXT,head256md5 TEXT,fullsize INTEGER DEFAULT 0,cdn_thumburl TEXT,cdn_thumbkey TEXT,thumb_width INTEGER DEFAULT 0,thumb_height INTEGER DEFAULT 0,cdn_dataurl TEXT,cdn_datakey TEXT,cdn_encryver INTEGER DEFAULT 0,duration TEXT,stream_weburl TEXT,stream_dataurl TEXT,stream_lowbandurl TEXT,sourcethumbpath TEXT,sourcedatapath TEXT,stream_videoid TEXT,Rerserved1 INTEGER DEFAULT 0,Rerserved2 INTEGER DEFAULT 0,Rerserved3 INTEGER DEFAULT 0,Rerserved4 TEXT,Rerserved5 TEXT,Rerserved6 TEXT,Rerserved7 BLOB)',
+          'tbl_name': 'FavDataItem'
+        },
+        {
+          'name': 'Config',
+          'rootpage': '23',
+          'sql': 'CREATE TABLE Config(Key TEXT PRIMARY KEY,Reserved0 INT,Buf BLOB,Reserved1 INT,Reserved2 TEXT)',
+          'tbl_name': 'Config'
+        }
+      ]
+    }
+  ],
+  'result': 'OK'
+}

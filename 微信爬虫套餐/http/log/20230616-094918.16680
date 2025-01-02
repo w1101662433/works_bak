@@ -1,0 +1,26 @@
+Log file created at: 2023/06/16 09:49:18
+Running on machine: PC-202204072139
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20230616 09:49:18.592447  8268 dllmain.cpp:13] Robot Start, isWxLogin: 1, pid: 16680
+I20230616 09:49:25.428540 16420 ReceiveMessage.cpp:147] msgid: 6063262777894261475 send begin.
+I20230616 09:49:25.428540 16420 ReceiveMessage.cpp:148] type: 51, sender: wxid_r5qu4uafrweg22
+I20230616 09:49:25.428540 16420 ReceiveMessage.cpp:149] content size: 840
+I20230616 09:49:25.430536 16420 ReceiveMessage.cpp:166] msgid: 6063262777894261475 send end.
+I20230616 09:49:33.264430  7108 ReceiveMessage.cpp:147] msgid: 2461591627734276343 send begin.
+I20230616 09:49:33.264430  7108 ReceiveMessage.cpp:148] type: 1, sender: wxid_qk4h0a9xn8eu21
+I20230616 09:49:33.264430  7108 ReceiveMessage.cpp:149] content size: 516
+I20230616 09:49:33.266391  7108 ReceiveMessage.cpp:166] msgid: 2461591627734276343 send end.
+I20230616 09:49:44.314781 14920 ReceiveMessage.cpp:147] msgid: 6263457746317180145 send begin.
+I20230616 09:49:44.314781 14920 ReceiveMessage.cpp:148] type: 1, sender: wxid_qk4h0a9xn8eu21
+I20230616 09:49:44.314781 14920 ReceiveMessage.cpp:149] content size: 525
+I20230616 09:49:44.315779 14920 ReceiveMessage.cpp:166] msgid: 6263457746317180145 send end.
+I20230616 10:03:03.472805 17112 ReceiveMessage.cpp:147] msgid: 1981540680879840049 send begin.
+I20230616 10:03:03.473803 17112 ReceiveMessage.cpp:148] type: 51, sender: wxid_r5qu4uafrweg22
+I20230616 10:03:03.473803 17112 ReceiveMessage.cpp:149] content size: 685
+I20230616 10:03:03.474799 17112 ReceiveMessage.cpp:166] msgid: 1981540680879840049 send end.
+I20230616 10:03:25.802664  9444 ReceiveMessage.cpp:147] msgid: 6057784311139796456 send begin.
+I20230616 10:03:25.802664  9444 ReceiveMessage.cpp:148] type: 51, sender: wxid_r5qu4uafrweg22
+I20230616 10:03:25.802664  9444 ReceiveMessage.cpp:149] content size: 686
+I20230616 10:03:25.803661  9444 ReceiveMessage.cpp:166] msgid: 6057784311139796456 send end.
+I20230616 10:18:21.508088  9276 dllmain.cpp:32] Robot Stop

@@ -1,0 +1,14 @@
+Log file created at: 2023/06/15 16:28:25
+Running on machine: PC-202204072139
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20230615 16:28:25.757244  8188 dllmain.cpp:13] Robot Start, isWxLogin: 1, pid: 16172
+I20230615 17:36:40.571792 17220 ReceiveMessage.cpp:147] msgid: 6461488350756641023 send begin.
+I20230615 17:36:40.571792 17220 ReceiveMessage.cpp:148] type: 1, sender: wxid_qk4h0a9xn8eu21
+I20230615 17:36:40.571792 17220 ReceiveMessage.cpp:149] content size: 456
+I20230615 17:36:40.573787 17220 ReceiveMessage.cpp:166] msgid: 6461488350756641023 send end.
+I20230615 17:37:15.794322 13564 ReceiveMessage.cpp:147] msgid: 7760641533634163602 send begin.
+I20230615 17:37:15.794322 13564 ReceiveMessage.cpp:148] type: 1, sender: wxid_qk4h0a9xn8eu21
+I20230615 17:37:15.794322 13564 ReceiveMessage.cpp:149] content size: 522
+I20230615 17:37:15.795318 13564 ReceiveMessage.cpp:166] msgid: 7760641533634163602 send end.
+I20230615 17:41:04.764487 17224 dllmain.cpp:32] Robot Stop

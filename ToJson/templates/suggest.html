@@ -1,0 +1,16 @@
+<el-dialog title="提交问题" :visible.sync="show_suggest" width="800px">
+    <el-form :model="suggest_form">
+        <el-form-item label="问题名称" label-width="80px" style="margin-top: 10px">
+            <el-input v-model="suggest_form.name" autocomplete="off" placeholder="问题名称"></el-input>
+        </el-form-item>
+        <el-form-item label="问题描述" label-width="80px">
+            <el-input v-model="suggest_form.description" maxlength="1000" autocomplete="off" type="textarea" placeholder="问题描述"
+                      :autosize="{ minRows: 5, maxRows: 10 }" show-word-limit></el-input>
+        </el-form-item>
+    </el-form>
+    <div slot="footer" class="dialog-footer">
+        <el-button @click="show_suggest = false">取 消</el-button>
+<!--        <el-button type="primary" @click="send_suggest">确 定</el-button>-->
+    </div>
+</el-dialog>
+

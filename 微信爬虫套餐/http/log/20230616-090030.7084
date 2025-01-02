@@ -1,0 +1,42 @@
+Log file created at: 2023/06/16 09:00:30
+Running on machine: PC-202204072139
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20230616 09:00:30.042021 14876 dllmain.cpp:13] Robot Start, isWxLogin: 1, pid: 7084
+I20230616 09:00:57.455729 17276 ReceiveMessage.cpp:147] msgid: 2059114923642569269 send begin.
+I20230616 09:00:57.455729 17276 ReceiveMessage.cpp:148] type: 1, sender: wxid_qk4h0a9xn8eu21
+I20230616 09:00:57.455729 17276 ReceiveMessage.cpp:149] content size: 457
+I20230616 09:00:57.457723 17276 ReceiveMessage.cpp:166] msgid: 2059114923642569269 send end.
+I20230616 09:06:21.143147 14128 ReceiveMessage.cpp:147] msgid: 1477757576740504903 send begin.
+I20230616 09:06:21.144145 14128 ReceiveMessage.cpp:148] type: 10000, sender: 38974356001@chatroom
+I20230616 09:06:21.144145 14128 ReceiveMessage.cpp:149] content size: 331
+I20230616 09:06:21.144145 14128 ReceiveMessage.cpp:166] msgid: 1477757576740504903 send end.
+I20230616 09:06:21.436084 13368 ReceiveMessage.cpp:147] msgid: 966934807058354697 send begin.
+I20230616 09:06:21.436084 13368 ReceiveMessage.cpp:148] type: 1, sender: wxid_qk4h0a9xn8eu21
+I20230616 09:06:21.436084 13368 ReceiveMessage.cpp:149] content size: 517
+I20230616 09:06:21.437081 13368 ReceiveMessage.cpp:166] msgid: 966934807058354697 send end.
+I20230616 09:12:18.725602 13040 ReceiveMessage.cpp:147] msgid: 4083283523810027545 send begin.
+I20230616 09:12:18.725602 13040 ReceiveMessage.cpp:148] type: 1, sender: wxid_qk4h0a9xn8eu21
+I20230616 09:12:18.725602 13040 ReceiveMessage.cpp:149] content size: 515
+I20230616 09:12:18.749511 13040 ReceiveMessage.cpp:166] msgid: 4083283523810027545 send end.
+I20230616 09:13:41.000965 17248 ReceiveMessage.cpp:147] msgid: 4271143944274181611 send begin.
+I20230616 09:13:41.000965 17248 ReceiveMessage.cpp:148] type: 1, sender: wxid_qk4h0a9xn8eu21
+I20230616 09:13:41.000965 17248 ReceiveMessage.cpp:149] content size: 515
+I20230616 09:13:41.003955 17248 ReceiveMessage.cpp:166] msgid: 4271143944274181611 send end.
+I20230616 09:14:32.872903 13800 ReceiveMessage.cpp:147] msgid: 6088111654338083690 send begin.
+I20230616 09:14:32.873899 13800 ReceiveMessage.cpp:148] type: 1, sender: wxid_qk4h0a9xn8eu21
+I20230616 09:14:32.873899 13800 ReceiveMessage.cpp:149] content size: 518
+I20230616 09:15:25.433745 13800 ReceiveMessage.cpp:166] msgid: 6088111654338083690 send end.
+I20230616 09:15:34.419137  7964 ReceiveMessage.cpp:147] msgid: 44200057103440104 send begin.
+I20230616 09:15:34.419137  7964 ReceiveMessage.cpp:148] type: 1, sender: wxid_qk4h0a9xn8eu21
+I20230616 09:15:34.419137  7964 ReceiveMessage.cpp:149] content size: 516
+I20230616 09:16:01.742496  7964 ReceiveMessage.cpp:166] msgid: 44200057103440104 send end.
+I20230616 09:16:10.199510 10112 ReceiveMessage.cpp:147] msgid: 4516560380444605436 send begin.
+I20230616 09:16:10.199510 10112 ReceiveMessage.cpp:148] type: 1, sender: wxid_qk4h0a9xn8eu21
+I20230616 09:16:10.199510 10112 ReceiveMessage.cpp:149] content size: 512
+I20230616 09:17:51.049397 10112 ReceiveMessage.cpp:166] msgid: 4516560380444605436 send end.
+I20230616 09:18:05.175045 14244 ReceiveMessage.cpp:147] msgid: 2378143658540028689 send begin.
+I20230616 09:18:05.175045 14244 ReceiveMessage.cpp:148] type: 1, sender: wxid_qk4h0a9xn8eu21
+I20230616 09:18:05.175045 14244 ReceiveMessage.cpp:149] content size: 513
+I20230616 09:18:05.177039 14244 ReceiveMessage.cpp:166] msgid: 2378143658540028689 send end.
+I20230616 09:45:58.648375 12372 dllmain.cpp:32] Robot Stop

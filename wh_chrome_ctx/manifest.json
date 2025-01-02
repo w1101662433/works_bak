@@ -1,0 +1,54 @@
+{
+  "name": "大猫插件",
+  "description": "大猫插件",
+  "version": "1.0",
+  "manifest_version": 2,
+  "icons": {
+    "16": "./icons/16.png",
+    "48": "./icons/16.png",
+    "128": "./icons/16.png"
+  },
+  "browser_action": {
+    "default_icon": "./icons/16.png",
+    "default_title": "大猫插件"
+//    "default_popup": "popup.html"
+    //    "scripts": [
+    //      "js/popup.js"
+    //    ]
+  },
+  "permissions": [
+    "cookies",
+    "contextMenus",
+    "tabs",
+    "notifications",
+    "webRequest",
+    "webRequestBlocking",
+    "storage",
+    "activeTab",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "scripts": [
+      "js/background.js",
+      "libs/js_tools.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "js/content_scripts.js",
+        "js/uikit.min.js",
+        "libs/js_tools.js"
+      ],
+      "css": [
+        "css/uikit.min.css",
+        "css/content_scripts.css"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}

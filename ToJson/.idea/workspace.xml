@@ -1,0 +1,1359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7f803099-d8cf-495b-8a21-9a597d2ac78b" name="Default Changelist" comment="init 27">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/save_mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/save_mysql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/restart.sh" beforeDir="false" afterPath="$PROJECT_DIR$/logs/restart.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start_tojson.py" beforeDir="false" afterPath="$PROJECT_DIR$/start_tojson.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ToJson$start_tojson.coverage" NAME="start_tojson Coverage Results" MODIFIED="1680084476357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ToJson$trans.coverage" NAME="trans Coverage Results" MODIFIED="1680166339132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/libs" />
+    <SUITE FILE_PATH="coverage/ToJson$requests_test.coverage" NAME="requests_test Coverage Results" MODIFIED="1674958667255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ashell" />
+    <SUITE FILE_PATH="coverage/ToJson$start.coverage" NAME="start Coverage Results" MODIFIED="1660986004761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ToJson$pytest_in_test_my_application_py.coverage" NAME="pytest in test_my_application.py Coverage Results" MODIFIED="1665714638672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ashell" />
+    <SUITE FILE_PATH="coverage/ToJson$222.coverage" NAME="222 Coverage Results" MODIFIED="1676531315158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ashell" />
+    <SUITE FILE_PATH="coverage/ToJson$111.coverage" NAME="111 Coverage Results" MODIFIED="1665712215389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ashell" />
+    <SUITE FILE_PATH="coverage/ToJson$pytest_for_test_my_application_test_homepage_has_Playwright_in_title_and_get_started_link_linking_to_the_intro_page.coverage" NAME="pytest for test_my_application.test_homepage_has_Playwright_in_title_and_get_started_link_linking_to_the_intro_page Coverage Results" MODIFIED="1665714506183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ashell" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="91" column="16" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#el-col#0;n#el-row#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h5#0;n#div#0;n#el-col#0;n#el-row#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#el-col#0;n#el-row#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#el-col#1;n#el-row#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h5#0;n#div#0;n#el-col#1;n#el-row#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/libs/trans.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="267" column="35" selection-start-line="267" selection-start-column="25" selection-end-line="267" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../python/python378/Lib/site-packages/yaml/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/print_error_info.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="201" selection-start-line="201" selection-end-line="201" />
+              <folding>
+                <element signature="e#0#95#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/suggest.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="n#style#0;n#el-form-item#0;n#el-form#0;n#el-dialog#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/help.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1056">
+              <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/start_tojson.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1152">
+              <caret line="77" column="22" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>score_dic</find>
+      <find>$dc_visit:1</find>
+      <find>index.js</find>
+      <find>index</find>
+      <find>ef get</find>
+      <find>de_jie_webhook</find>
+      <find>post_data</find>
+      <find>value</find>
+      <find>route_to_success</find>
+      <find>route_to_help</find>
+      <find>route_to_suggest</find>
+      <find>form</find>
+      <find>dialogFormVisible</find>
+      <find>$message</find>
+      <find>Message</find>
+      <find>Message:</find>
+      <find>element-ui</find>
+      <find>ele</find>
+      <find>init</find>
+      <find>header</find>
+      <find>z-</find>
+      <find>vue</find>
+      <find>TransHandler</find>
+      <find>save_mysql</find>
+      <find>time</find>
+      <find>this.$message</find>
+      <find>show_suggest</find>
+      <find>route_to_index</find>
+      <find>yaml_to_json</find>
+      <find>split_to_lines</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>tran_to_json</replace>
+      <replace>editor_container</replace>
+      <replace>header_to_json</replace>
+      <replace>logger.debug(</replace>
+      <replace>show_log(</replace>
+      <replace>show_wechat_img</replace>
+      <replace>score_dic</replace>
+      <replace>start_tojson</replace>
+      <replace>shadowfox</replace>
+      <replace>\t</replace>
+      <replace>print_error_info(log=True)</replace>
+      <replace>、</replace>
+      <replace>&lt;el-col :offset=&quot;2&quot; :span=&quot;20&quot; style=&quot;margin-bottom: 15px;margin-top:15px&quot;&gt;</replace>
+      <replace>route_to_index</replace>
+      <replace>show_suggest</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\python\python378\Lib\site-packages\tornado\</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ashell/aaa.vue" />
+        <option value="$PROJECT_DIR$/ashell/aaa.html" />
+        <option value="$PROJECT_DIR$/../../../python/python378/Lib/site-packages/tornado/options.py" />
+        <option value="$PROJECT_DIR$/libs/print_error_info.py" />
+        <option value="$PROJECT_DIR$/__main__.py" />
+        <option value="$PROJECT_DIR$/css/reset.css" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/index.css.html" />
+        <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/static/robots.txt" />
+        <option value="$PROJECT_DIR$/static/js/vue2.js" />
+        <option value="$PROJECT_DIR$/static/js/codemirror.js" />
+        <option value="$PROJECT_DIR$/static/js/javascript.js" />
+        <option value="$PROJECT_DIR$/start.py" />
+        <option value="$PROJECT_DIR$/logs/restart.sh" />
+        <option value="$PROJECT_DIR$/static/js/1N2UB" />
+        <option value="$PROJECT_DIR$/ashell/111.py" />
+        <option value="$PROJECT_DIR$/ashell/test_my_application.py" />
+        <option value="$PROJECT_DIR$/static/nginx.conf" />
+        <option value="$PROJECT_DIR$/templates/header.html" />
+        <option value="$PROJECT_DIR$/templates/base_meta.html" />
+        <option value="$PROJECT_DIR$/templates/base_footer.html" />
+        <option value="$PROJECT_DIR$/templates/pdf.html" />
+        <option value="$PROJECT_DIR$/ashell/requests_test.py" />
+        <option value="$PROJECT_DIR$/ashell/222.py" />
+        <option value="$PROJECT_DIR$/templates/base_banner.html" />
+        <option value="$PROJECT_DIR$/static/css/el_index.css" />
+        <option value="$PROJECT_DIR$/static/js/element-ui.js" />
+        <option value="$PROJECT_DIR$/templates/base_head.html" />
+        <option value="$PROJECT_DIR$/static/css/index.css" />
+        <option value="$PROJECT_DIR$/libs/save_mysql.py" />
+        <option value="$PROJECT_DIR$/models/model.py" />
+        <option value="$PROJECT_DIR$/start_tojson.py" />
+        <option value="$PROJECT_DIR$/templates/help.html" />
+        <option value="$PROJECT_DIR$/templates/suggest.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/libs/trans.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="252" />
+    <option name="y" value="100" />
+    <option name="width" value="1294" />
+    <option name="height" value="1100" />
+  </component>
+  <component name="ProjectId" id="2QK0b6bIoGKGsR17ai9fUXFTcjM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ToJson" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ToJson" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ToJson" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ToJson" type="462c0819:PsiDirectoryNode" />
+              <item name="ashell" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ToJson" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ToJson" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ToJson" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="ToJson" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (findic) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="ToJson" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (findic) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python378" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ToJson" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (findic) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python378" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ToJson" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (findic) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python378" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ToJson" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (findic) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python378" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="yaml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ToJson" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (findic) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ToJson" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (findic) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ToJson" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (findic) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="yaml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ToJson" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (findic) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ToJson" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (findic) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="yaml" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/wanghui/sales_warning",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\BaiduSyncdisk\works\ToJson\static\fonts" />
+      <recent name="F:\BaiduSyncdisk\works\ToJson\models" />
+      <recent name="F:\BaiduSyncdisk\works\ToJson\static\js" />
+      <recent name="F:\BaiduSyncdisk\works\ToJson\static\img\help" />
+      <recent name="F:\BaiduSyncdisk\works\ToJson\static\pdf" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\BaiduSyncdisk\works\ToJson\static" />
+      <recent name="F:\BaiduSyncdisk\works\ToJson\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.trans">
+    <configuration name="111" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ToJson" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ashell" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ashell/111.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="222" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ToJson" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ashell" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ashell/222.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="requests_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ToJson" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ashell" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ashell/requests_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start_tojson" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ToJson" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/start_tojson.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="trans" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ToJson" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/libs/trans.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.trans" />
+        <item itemvalue="Python.111" />
+        <item itemvalue="Python.start_tojson" />
+        <item itemvalue="Python.222" />
+        <item itemvalue="Python.requests_test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f803099-d8cf-495b-8a21-9a597d2ac78b" name="Default Changelist" comment="" />
+      <created>1660008671002</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660008671002</updated>
+      <workItem from="1660008672216" duration="4197000" />
+      <workItem from="1660013667687" duration="14524000" />
+      <workItem from="1660038904324" duration="24677000" />
+      <workItem from="1660556601369" duration="13536000" />
+      <workItem from="1660641931457" duration="4766000" />
+      <workItem from="1660723230775" duration="17021000" />
+      <workItem from="1660790689244" duration="4268000" />
+      <workItem from="1660879638962" duration="8581000" />
+      <workItem from="1660894029566" duration="14309000" />
+      <workItem from="1661136141837" duration="312000" />
+      <workItem from="1661137044778" duration="500000" />
+      <workItem from="1661138090906" duration="14705000" />
+      <workItem from="1661179786686" duration="1550000" />
+      <workItem from="1662522426019" duration="1786000" />
+      <workItem from="1662545137111" duration="3946000" />
+      <workItem from="1663312254658" duration="3736000" />
+      <workItem from="1663548346654" duration="33000" />
+      <workItem from="1664267655290" duration="2442000" />
+      <workItem from="1664429914812" duration="312000" />
+      <workItem from="1664430877477" duration="4069000" />
+      <workItem from="1665710729960" duration="3032000" />
+      <workItem from="1665714216501" duration="6859000" />
+      <workItem from="1665727243563" duration="3619000" />
+      <workItem from="1665732388559" duration="11274000" />
+      <workItem from="1666056158852" duration="2789000" />
+      <workItem from="1666603888463" duration="3022000" />
+      <workItem from="1666832838197" duration="5344000" />
+      <workItem from="1666949070031" duration="204000" />
+      <workItem from="1667271912750" duration="1854000" />
+      <workItem from="1667437154996" duration="784000" />
+      <workItem from="1668070548202" duration="138000" />
+      <workItem from="1669256635572" duration="755000" />
+      <workItem from="1669618246845" duration="1280000" />
+      <workItem from="1669626723827" duration="1906000" />
+      <workItem from="1669642982622" duration="2036000" />
+      <workItem from="1669690728205" duration="265000" />
+      <workItem from="1670308670074" duration="1201000" />
+      <workItem from="1671524107033" duration="952000" />
+      <workItem from="1674958444663" duration="470000" />
+      <workItem from="1674979567999" duration="36000" />
+      <workItem from="1676528139006" duration="4289000" />
+      <workItem from="1676606150404" duration="1823000" />
+      <workItem from="1679380583178" duration="1683000" />
+      <workItem from="1679972723211" duration="2797000" />
+      <workItem from="1679982024429" duration="6282000" />
+      <workItem from="1680053717934" duration="2506000" />
+      <workItem from="1680068259604" duration="1400000" />
+      <workItem from="1680072451325" duration="1072000" />
+      <workItem from="1680076336828" duration="9240000" />
+      <workItem from="1680165698803" duration="1633000" />
+      <workItem from="1685087035008" duration="1433000" />
+      <workItem from="1685332085913" duration="1324000" />
+      <workItem from="1685344275216" duration="364000" />
+      <workItem from="1692068537857" duration="1156000" />
+      <workItem from="1692339432870" duration="696000" />
+      <workItem from="1697784185428" duration="533000" />
+      <workItem from="1697785000207" duration="422000" />
+      <workItem from="1697789987874" duration="2431000" />
+      <workItem from="1697797068660" duration="17000" />
+      <workItem from="1698715455829" duration="796000" />
+      <workItem from="1698719232194" duration="2436000" />
+      <workItem from="1698756664207" duration="594000" />
+      <workItem from="1701075108937" duration="1022000" />
+      <workItem from="1721009835776" duration="2184000" />
+      <workItem from="1721020368610" duration="749000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1660008757231</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660008757231</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init 2">
+      <created>1660033678252</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660033678252</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init 3">
+      <created>1660038152326</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660038152326</updated>
+    </task>
+    <task id="LOCAL-00004" summary="init 3">
+      <created>1660039861654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660039861654</updated>
+    </task>
+    <task id="LOCAL-00005" summary="init 3">
+      <created>1660094053280</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660094053280</updated>
+    </task>
+    <task id="LOCAL-00006" summary="init 4">
+      <created>1660095102375</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1660095102375</updated>
+    </task>
+    <task id="LOCAL-00007" summary="init 4">
+      <created>1660102193872</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660102193872</updated>
+    </task>
+    <task id="LOCAL-00008" summary="init 4">
+      <created>1660103589497</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660103589497</updated>
+    </task>
+    <task id="LOCAL-00009" summary="init 5">
+      <created>1660557337316</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660557337316</updated>
+    </task>
+    <task id="LOCAL-00010" summary="init 6">
+      <created>1660613923630</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1660613923630</updated>
+    </task>
+    <task id="LOCAL-00011" summary="init 7">
+      <created>1660730508571</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660730508571</updated>
+    </task>
+    <task id="LOCAL-00012" summary="init 8 二分类版版">
+      <created>1660784958606</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660784958606</updated>
+    </task>
+    <task id="LOCAL-00013" summary="init 9 二分类版版">
+      <created>1660787066640</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1660787066640</updated>
+    </task>
+    <task id="LOCAL-00014" summary="init 9 二分类版版">
+      <created>1660787304491</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1660787304491</updated>
+    </task>
+    <task id="LOCAL-00015" summary="init 9 二分类版版">
+      <created>1660880277981</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1660880277981</updated>
+    </task>
+    <task id="LOCAL-00016" summary="init 9 二分类版版">
+      <created>1660890696154</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1660890696154</updated>
+    </task>
+    <task id="LOCAL-00017" summary="init 10 上线">
+      <created>1660900417165</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1660900417165</updated>
+    </task>
+    <task id="LOCAL-00018" summary="init 10 上线">
+      <created>1660901841670</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1660901841670</updated>
+    </task>
+    <task id="LOCAL-00019" summary="init 10 上线">
+      <created>1660903571785</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1660903571785</updated>
+    </task>
+    <task id="LOCAL-00020" summary="init 11 上线">
+      <created>1661156224501</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1661156224501</updated>
+    </task>
+    <task id="LOCAL-00021" summary="init 12 上线优化">
+      <created>1661159535470</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1661159535470</updated>
+    </task>
+    <task id="LOCAL-00022" summary="init 12 上线优化">
+      <created>1662601737695</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1662601737695</updated>
+    </task>
+    <task id="LOCAL-00023" summary="init 12 上线优化">
+      <created>1663312638734</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1663312638734</updated>
+    </task>
+    <task id="LOCAL-00024" summary="init 13 上线优化">
+      <created>1665715602020</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1665715602020</updated>
+    </task>
+    <task id="LOCAL-00025" summary="init 14 上线优化">
+      <created>1665717529339</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1665717529339</updated>
+    </task>
+    <task id="LOCAL-00026" summary="init 15 help界面">
+      <created>1665735875457</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1665735875457</updated>
+    </task>
+    <task id="LOCAL-00027" summary="init 15 help界面">
+      <created>1665737512081</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1665737512081</updated>
+    </task>
+    <task id="LOCAL-00028" summary="init 16 模板继承">
+      <created>1665740943815</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1665740943815</updated>
+    </task>
+    <task id="LOCAL-00029" summary="init 16 模板继承">
+      <created>1665741684814</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1665741684814</updated>
+    </task>
+    <task id="LOCAL-00030" summary="init 17 模板继承">
+      <created>1666605976930</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1666605976930</updated>
+    </task>
+    <task id="LOCAL-00031" summary="init 18 模板继承">
+      <created>1666833097595</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1666833097595</updated>
+    </task>
+    <task id="LOCAL-00032" summary="init 19 模板继承">
+      <created>1666836873739</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1666836873739</updated>
+    </task>
+    <task id="LOCAL-00033" summary="init 19 模板继承">
+      <created>1666949276761</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1666949276761</updated>
+    </task>
+    <task id="LOCAL-00034" summary="init 19 模板继承">
+      <created>1667437943853</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1667437943853</updated>
+    </task>
+    <task id="LOCAL-00035" summary="init 20 ==优化">
+      <created>1669619532196</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1669619532196</updated>
+    </task>
+    <task id="LOCAL-00036" summary="init 20 ==优化">
+      <created>1669644218188</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1669644218188</updated>
+    </task>
+    <task id="LOCAL-00037" summary="init 20 ==优化">
+      <created>1670309899554</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1670309899554</updated>
+    </task>
+    <task id="LOCAL-00038" summary="init 20 ==优化">
+      <created>1671525819179</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1671525819179</updated>
+    </task>
+    <task id="LOCAL-00039" summary="init 20 ==优化">
+      <created>1674958913095</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1674958913095</updated>
+    </task>
+    <task id="LOCAL-00040" summary="init 21">
+      <created>1679381568205</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1679381568205</updated>
+    </task>
+    <task id="LOCAL-00041" summary="init 22">
+      <created>1679975611125</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1679975611125</updated>
+    </task>
+    <task id="LOCAL-00042" summary="init 22">
+      <created>1679975620208</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1679975620208</updated>
+    </task>
+    <task id="LOCAL-00043" summary="init 23">
+      <created>1680078563659</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1680078563659</updated>
+    </task>
+    <task id="LOCAL-00044" summary="init 24">
+      <created>1680079847836</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1680079847836</updated>
+    </task>
+    <task id="LOCAL-00045" summary="init 25">
+      <created>1680080214437</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1680080214437</updated>
+    </task>
+    <task id="LOCAL-00046" summary="init 26">
+      <created>1680165710250</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1680165710250</updated>
+    </task>
+    <task id="LOCAL-00047" summary="init 26">
+      <created>1685089217586</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1685089217586</updated>
+    </task>
+    <task id="LOCAL-00048" summary="init 26">
+      <created>1685337093820</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1685337093820</updated>
+    </task>
+    <task id="LOCAL-00049" summary="init 27">
+      <option name="closed" value="true" />
+      <created>1701076129727</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1701076129727</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_for_test_my_application_test_homepage_has_Playwright_in_title_and_get_started_link_linking_to_the_intro_page - 2022.10.14 at 10h 28m 27s.xml">
+      <configuration name="pytest for test_my_application.test_homepage_has_Playwright_in_title_and_get_started_link_linking_to_the_intro_page" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_my_application_py - 2022.10.14 at 10h 31m 20s.xml">
+      <configuration name="pytest in test_my_application.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="219815000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2260128" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.49443206" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.54231626" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" weight="0.48218262" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.38530067" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32850778" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21748401" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.49443206" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.54231626" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" weight="0.48218262" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.38530067" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32925472" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="init 3" />
+    <MESSAGE value="init 4" />
+    <MESSAGE value="init 5" />
+    <MESSAGE value="init 6" />
+    <MESSAGE value="init 7" />
+    <MESSAGE value="init 8 二分类版版" />
+    <MESSAGE value="init 9 二分类版版" />
+    <MESSAGE value="init 10 上线" />
+    <MESSAGE value="init 11 上线" />
+    <MESSAGE value="init 12 上线优化" />
+    <MESSAGE value="init 13 上线优化" />
+    <MESSAGE value="init 14 上线优化" />
+    <MESSAGE value="init 15 help界面" />
+    <MESSAGE value="init 16 模板继承" />
+    <MESSAGE value="init 17 模板继承" />
+    <MESSAGE value="init 18 模板继承" />
+    <MESSAGE value="init 19 模板继承" />
+    <MESSAGE value="init 20 ==优化" />
+    <MESSAGE value="init 21" />
+    <MESSAGE value="init 22" />
+    <MESSAGE value="init 23" />
+    <MESSAGE value="init 24" />
+    <MESSAGE value="init 25" />
+    <MESSAGE value="init 26" />
+    <MESSAGE value="init 27" />
+    <option name="LAST_COMMIT_MESSAGE" value="init 27" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ToJson$start_tojson.coverage" NAME="start_tojson Coverage Results" MODIFIED="1685337063300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ToJson$111.coverage" NAME="111 Coverage Results" MODIFIED="1692068812737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ashell" />
+    <SUITE FILE_PATH="coverage/ToJson$trans.coverage" NAME="trans Coverage Results" MODIFIED="1701075935438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/libs" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/__main__.py" />
+    <entry file="file://$PROJECT_DIR$/../../../python/python378/Lib/site-packages/tornado/autoreload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="316" column="73" selection-start-line="316" selection-start-column="67" selection-end-line="316" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages.txt" />
+    <entry file="file://$PROJECT_DIR$/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/../../../python/python378/Lib/site-packages/tornado/web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="2559" column="24" selection-start-line="2559" selection-start-column="24" selection-end-line="2559" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/vue2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="10" column="103650" selection-start-line="10" selection-start-column="103650" selection-end-line="10" selection-end-column="103650" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1696997967/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="4980" column="30" lean-forward="true" selection-start-line="4980" selection-start-column="30" selection-end-line="4980" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../python/python378/Lib/site-packages/yaml/reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="100" column="33" lean-forward="true" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../python/python378/Lib/site-packages/yaml/constructor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../python/python378/Lib/site-packages/yaml/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../python/python378/Lib/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="206" column="44" selection-start-line="206" selection-start-column="39" selection-end-line="206" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/1N2UB" />
+    <entry file="file://$PROJECT_DIR$/static/js/1N2UB_back.js" />
+    <entry file="file://$PROJECT_DIR$/static/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/codemirror.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="7733" column="47" selection-start-line="7733" selection-start-column="47" selection-end-line="7733" selection-end-column="47" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/pyppeteer_tools.py" />
+    <entry file="file://$PROJECT_DIR$/static/img/wechat.png" />
+    <entry file="file://$PROJECT_DIR$/tmp/cookies.json" />
+    <entry file="file://$PROJECT_DIR$/ashell/test_my_application.py" />
+    <entry file="file://$PROJECT_DIR$/ashell/example-chromium.png" />
+    <entry file="file://$PROJECT_DIR$/logs/restart.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/help/help3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/help/help1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base_footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#el-col#0;n#el-row#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#el-col#1;n#el-row#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#el-col#1;n#el-row#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#el-col#1;n#el-row#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/resume.html" />
+    <entry file="file://$PROJECT_DIR$/static/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/help/help4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/help/help2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="66" column="23" lean-forward="true" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ashell/111.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ashell/222.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" selection-start-line="2" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ashell/requests_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/el_index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10522" selection-start-line="10522" selection-end-line="10522" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/element-ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="16338" column="32" selection-start-line="16338" selection-start-column="24" selection-end-line="16338" selection-end-column="32" />
+          <folding>
+            <element signature="e#62812#64857#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/dracula.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/javascript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="926" column="3" selection-start-line="926" selection-start-column="3" selection-end-line="926" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/axios.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret column="1100" selection-start-column="1100" selection-end-column="1100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="171" selection-start-line="171" selection-end-line="171" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base_head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="15" column="99" selection-start-line="15" selection-start-column="99" selection-end-line="15" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base_banner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/save_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="91" column="16" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-row#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#div#0;n#el-col#0;n#el-row#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#el-col#0;n#el-row#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#div#0;n#el-col#1;n#el-row#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/suggest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="n#style#0;n#el-form-item#0;n#el-form#0;n#el-dialog#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/help.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start_tojson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="77" column="22" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/print_error_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="201" selection-start-line="201" selection-end-line="201" />
+          <folding>
+            <element signature="e#0#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../python/python378/Lib/site-packages/yaml/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/trans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="267" column="35" selection-start-line="267" selection-start-column="25" selection-end-line="267" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,32 @@
+/*复制cookie提示框美化*/
+.uk-notification-message {
+    border: 1px solid limegreen;
+    background: mintcream;
+    font-size: 20px;
+    text-align: center;
+}
+
+.uk-notification {
+    height: 60px;
+    width: 350px;
+}
+
+/*百度广告*/
+.sam_newgrid > #content_right {
+    display: none;
+}
+
+/*it1352 clean*/
+.arc-body-main {
+    height: 2800px;
+}
+
+/*www.5axxw.com clean*/
+#gzh-modal-wrap > #gzh-mask, #gzh-modal {
+    display: none;
+}
+
+/*csdn广告*/
+#recommend-right {
+    display: none !important
+}

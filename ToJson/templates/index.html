@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh">
+{% include base_head.html %}
+
+
+<body>
+
+<div id="app" style="margin-top: 60px;" v-cloak>
+    {% include base_banner.html %}
+    <el-row>
+        <el-col :span="10" style="padding: 10px; margin-top: 30px" :offset="2">
+            <div class="input_header clearfix">
+                <h5 style="text-transform:capitalize">input</h5>
+                <input type="submit" style="text-transform:capitalize" class="submit-button" name="submit" id="submit"
+                       value="Submit→" @click="tran_to_json">
+            </div>
+
+            <div class="editor_container">
+                <textarea id="editor_demo"></textarea>
+            </div>
+        </el-col>
+
+        <el-col :span="10" style="padding: 10px; margin-top: 30px">
+            <div class="input_header clearfix">
+                <h5 style="text-transform:capitalize">Output</h5>
+            </div>
+            <div class="editor_container">
+                <textarea id="editor_demo2"></textarea>
+                <div v-show="show_wechat" class="help_div_class">
+                    <div>任何问题，都可以联系fivcan@163.com</div>
+                </div>
+            </div>
+        </el-col>
+
+    </el-row>
+
+    {% include suggest.html %}
+
+    {% include base_footer.html %}
+</div>
+
+
+<script type="text/javascript">
+    new Vue({
+        el: '#app',
+        data: {
+            editor: null,
+            show_wechat: false,
+            show_output2: false,
+            show_suggest: false,
+            suggest_form: {name: '', description: ''},
+        },
+        mounted() {
+            this.init()
+        },
+        methods: {
+            route_to_suggest() {
+                this.show_suggest = true
+            },
+            route_to_index() {
+                // window.location = '/'
+            },
+            route_to_help() {
+                window.open('/help.html', "_blank")
+            },
+
+            init() {
+                this.editor = CodeMirror.fromTextArea(document.getElementById("editor_demo"), {
+                    lineNumbers: true,
+                    indentWithTabs: false,
+                    indentUnit: 4,
+                    smartIndent: true,
+                    mode: "application/json",
+                    theme: 'dracula',
+                });
+                this.editor.setSize('auto', '705px');
+
+                this.editor2 = CodeMirror.fromTextArea(document.getElementById("editor_demo2"), {
+                    lineNumbers: true,
+                    indentWithTabs: false,
+                    indentUnit: 4,
+                    smartIndent: true,
+                    mode: "application/json",
+                    theme: 'dracula',
+                });
+                // this.editor2.setSize('auto', '312px');
+                this.editor2.setSize('auto', '705px');
+
+
+                let default_value = `功能 :
+                    \t- json格式化
+                    \t- xml转json
+                    \t- yaml转json
+                    \t- ini转json
+                    \t- excel转json
+                    \t- url转json
+                    \t- 智能识别你可能想要的json
+                    任何疑问 :
+                    \tfivcan@163.com
+                    `;
+                this.editor.setValue(default_value)
+
+                let default_value2 = `{
+                    \t"功能": [
+                    \t\t"json格式化",
+                    \t\t"xml转json",
+                    \t\t"yaml转json",
+                    \t\t"ini转json",
+                    \t\t"excel转json",
+                    \t\t"url转json",
+                    \t\t"智能识别你可能想要的json"
+                    \t],
+                    \t"任何疑问": "fivcan@163.com"
+                }`
+                this.editor2.setValue(default_value2)
+
+            },
+
+            tran_to_json() {
+                this.show_wechat = false
+                let content = this.editor.getValue();
+                console.log('content.length', content.length)
+                if (content.length > 99999) {
+                    this.editor2.setValue('/｀ｍ´）ﾉ ~┻━┻\n数据太长我处理不了啦!')
+                    return
+                }
+                let data = {
+                    content: content
+                };
+                // console.log('post data', data);
+                let editor = this.editor2;
+                axios.post('/trans_to_json', data)
+                    .then(function (response) {
+                        // console.log('response', response);
+                        // console.log('response.data', response.data);
+                        // console.log('response.data.success', response.data.success);
+                        // console.log('editor', editor);
+                        editor.setValue(response.data.success)
+                    })
+                    .catch(function (error) {
+                        console.log('error', error);
+                    });
+            },
+
+        }
+    })
+</script>
+</body>
+</html>

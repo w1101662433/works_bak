@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh">
+{% include base_head.html %}
+
+
+<body>
+
+<div id="app" style="margin-top: 60px;" v-cloak>
+    {% include base_banner.html %}
+
+
+    <el-row>
+
+        <el-col :offset="2" :span="20" class="card-row" class="card-row">
+            <el-card class="box-card">
+                <div slot="header" class="clearfix">
+                    <span class="card-head">excel转json</span>
+                </div>
+                <el-image :src="help_png_2" :fit="fit"></el-image>
+            </el-card>
+        </el-col>
+
+        <el-col :offset="2" :span="20" class="card-row" class="card-row">
+            <el-card class="box-card">
+                <div slot="header" class="clearfix">
+                    <span class="card-head">智能识别你可能想要的json-1</span>
+                </div>
+                <el-image :src="help_png_3" :fit="fit"></el-image>
+            </el-card>
+        </el-col>
+
+        <el-col :offset="2" :span="20" class="card-row" class="card-row">
+            <el-card class="box-card">
+                <div slot="header" class="clearfix">
+                    <span class="card-head">智能识别你可能想要的json-2</span>
+                </div>
+                <el-image :src="help_png_4" :fit="fit"></el-image>
+            </el-card>
+        </el-col>
+
+        <el-col :offset="2" :span="20" class="card-row" class="card-row">
+            <el-card class="box-card">
+                <div slot="header" class="clearfix">
+                    <span class="card-head">智能识别你可能想要的json-3</span>
+                </div>
+                <el-image :src="help_png_5" :fit="fit"></el-image>
+            </el-card>
+        </el-col>
+
+        <el-col :offset="2" :span="20" class="card-row" class="card-row">
+            <el-card class="box-card">
+                <div slot="header" class="clearfix">
+                    <span class="card-head">url转json</span>
+                </div>
+                <el-image :src="help_png_1" :fit="fit"></el-image>
+            </el-card>
+        </el-col>
+
+    </el-row>
+
+    {% include suggest.html %}
+    {% include base_footer.html %}
+
+</div>
+
+
+<script type="text/javascript">
+    new Vue({
+        el: '#app',
+        data: {
+            fit: 'fill',
+            help_png_1: '/static/img/help/help4.png',
+            help_png_2: '/static/img/help/help3.png',
+            help_png_3: '/static/img/help/help1.png',
+            help_png_4: '/static/img/help/help2.png',
+            help_png_5: '/static/img/help/help5.png',
+            show_suggest: false,
+            suggest_form: {},
+        },
+
+        methods: {
+            route_to_suggest() {
+                this.show_suggest = true
+            },
+            route_to_index() {
+                window.location = '/'
+            },
+            route_to_help() {
+                window.open('/help.html', "_blank")
+            },
+            send_suggest() {
+                this.show_suggest = false
+                let content = this.suggest_form;
+                console.log('this.$message', this.$message)
+
+                let that = this
+                axios.post('/send_suggest', this.suggest_form)
+                    .then(function (response) {
+                        that.$message({
+                            showClose: true,
+                            message: '提交成功, 感谢您宝贵的建议。',
+                            duration: 5000,
+                            type: 'success',
+                            offset: 40,
+                        });
+                    })
+                    .catch(function (error) {
+                        that.$message({
+                            showClose: true,
+                            message: '提交失败',
+                            type: 'error',
+                            offset: 40,
+                        });
+
+                    });
+            },
+        }
+    })
+</script>
+
+<style>
+    .card-row {
+        margin-bottom: 15px;
+        margin-top: 15px
+    }
+
+    .card-head {
+        font-size: 20px;
+    }
+
+</style>
+</body>
+</html>

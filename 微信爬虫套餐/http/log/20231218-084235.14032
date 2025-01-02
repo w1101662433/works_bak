@@ -1,0 +1,5 @@
+Log file created at: 2023/12/18 08:42:35
+Running on machine: DESKTOP-VR85IAV
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20231218 08:42:35.069101 11420 dllmain.cpp:13] Robot Start, isWxLogin: 1, pid: 14032

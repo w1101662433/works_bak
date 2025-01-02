@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sql Monitor</title>
+    <link rel="stylesheet" href="/static/css/index.css">
+    <script src="/static/js/vue.js"></script>
+    <script src="/static/js/index.js"></script>
+    <script src="/static/js/axios.min.js"></script>
+    <style>
+        td.el-table__cell {
+            padding: 6px 0 !important;
+        }
+    </style>
+</head>
+
+<body>
+<div id="app">
+    <h1 style="text-align: center; ">Sql监控</h1>
+    {#    <el-button @click="get_config_json"  type="primary" icon="el-icon-refresh" plain>刷新</el-button>#}
+    <el-table :data="tableData" border style="border-top: red solid 1px" stripe highlight-current-row
+              header-align="center" align="center">
+        <el-table-column prop="id" label="ID" align="center" width="100"></el-table-column>
+        <el-table-column prop="table_name" label="表名称" align="center" width="230"></el-table-column>
+        <el-table-column prop="table_comments" label="表注释" align="center" width="230"></el-table-column>
+        <el-table-column prop="period" label="爬取周期" align="center" width="120"></el-table-column>
+        <el-table-column prop="cron_time" label="爬取时间" align="center" width="180"></el-table-column>
+        <el-table-column prop="time_col" label="时间列" align="center" width="130"></el-table-column>
+        <el-table-column prop="max_delay" label="最大延迟" align="center" width="130"></el-table-column>
+
+        <el-table-column prop="correct" label="是否正常" align="center" width="130">
+
+
+            <template slot-scope="scope">
+                <el-tag type="success" v-if="scope.row.correct == 1">正常</el-tag>
+                <el-tag type="danger" v-else>异常</el-tag>
+            </template>
+        </el-table-column>
+
+        <el-table-column prop="last_update" label="最新数据时间" align="center" width="180"></el-table-column>
+        <el-table-column prop="note" label="备注" width="180"></el-table-column>
+    </el-table>
+
+</div>
+</body>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: function () {
+            return {
+                tableData: []
+            }
+        },
+        methods: {
+            route_to_suggest() {
+                this.show_suggest = true
+            },
+
+            get_config_json() {
+                console.log(axios)
+                axios.get('/get_config_json',)
+                    .then(response => {
+                        this.tableData = response.data.success;
+                        console.log('this.tableData', this.tableData)
+                    })
+                    .catch(error => {
+                        that.$message({
+                            showClose: true,
+                            message: '失败',
+                            type: 'error',
+                            offset: 40,
+                        });
+                    });
+            }
+        },
+        mounted() {
+            this.get_config_json()
+        }
+    })
+</script>
+</html>
+
